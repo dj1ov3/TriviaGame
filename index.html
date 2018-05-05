@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+        
+        <!-- bootstrap link -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        
+        <!-- jquery link -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+
+        <!-- javascript link -->
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+        <!-- css link -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+        
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="text-center">Ultimate Trivia!!!</h1>
+        <br>
+        <h3 id="timeBox">Time Remaining:</h3>
+        <div id="yourScore"></div>
+        
+        <br>
+
+       <div class="text-center">
+        <button class="center-block" id="start">Start</button>
+       </div>
+        
+        
+        <div class="row" id="questionsBox">
+            <div class="col-md-4"></div>
+            <div class="col-md-4"><form class="center">
+                <hr color="white">
+                    <!-- 20hz-20khz -->
+                    <p>What frequency range can the human ear pick up?</p>
+                    <input type="radio" name="ear" id="ear1" value="1hz-100hz">  1hz-100hz
+                    <input type="radio" name="ear" id="ear2" value="80hz-1khz">  80hz-1khz
+                    <input type="radio" name="ear" id="ear3" value="90hz-15khz">  90hz-15khz<br>
+                    <input type="radio" name="ear" id="ear4" value="20hz-20khz">  20hz-20khz
+                <hr color="white">
+               
+                    <!-- 3 -->
+                    <p>How many pedals does a standard piano have?</p>
+                    <input type="radio" name="piano" id="piano1" value="none">  None
+                    <input type="radio" name="piano" id="piano2" value="1">  1
+                    <input type="radio" name="piano" id="piano3" value="2">  2
+                    <input type="radio" name="piano" id="piano4" value="3">  3
+                <hr color="white">
+
+                    <!-- 6 -->
+                    <p>How many strings does a standard guitar have?</p>
+                    <input type="radio" name="gtr" id="gtr1" value="5">  5
+                    <input type="radio" name="gtr" id="gtr2" value="7">  7
+                    <input type="radio" name="gtr" id="gtr3" value="6">  6
+                    <input type="radio" name="gtr" id="gtr4" value="8">  8
+                <hr color="white">
+
+                    <!-- 926,426 -->
+                    <p>What was the first song performed in outer space?</p>
+                    <input type="radio" name="space" id="space1" value="Happy Birthday">  Happy Birthday
+                    <input type="radio" name="space" id="space2" value="American Idiot">  American Idiot
+                    <input type="radio" name="space" id="space3" value="Bohemian Rhapsody">  Bohemian Rhapsody
+                    <input type="radio" name="space" id="space4" value="Symphony #40 in G Minor">  Symphony #40 in G Minor
+                <hr color="white">
+
+                    <!-- B- 3.141592 -->
+                    <p>What is the correct order for Pi?</p>
+                    <input type="radio" name="pi" id="pi1" value="3.147583">  3.147583
+                    <input type="radio" name="pi" id="pi2" value="3.141592">  3.141592
+                    <input type="radio" name="pi" id="pi3" value="3.140392">  3.140392
+                    <input type="radio" name="pi" id="pi4" value="3.141739">  3.141739
+                    
+    
+    
+                </form></div>
+            <div class="col-md-4"></div>
+            
+
+
+
+
+
+
+        </div>
+        
+        
+    
+
+
+
+    </div>
+
+</body>
+</html>

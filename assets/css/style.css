@@ -1,0 +1,36 @@
+body{
+    background-image: url("../../assets/images/studio.jpg");
+    /* background-image: url("http://www.heirwavestudio.com/wp-content/uploads/2017/04/studio.jpg"); */
+    background-size: cover;
+    
+    color: white;
+}
+
+
+.container{
+    border-style: solid;
+}
+
+h3{
+    text-align: center;
+}
+
+button{
+    margin-bottom: 50px;
+    font-size: x-large;
+}
+
+#yourScore{
+    text-align: center;
+}
+
+#questionsBox{
+    
+    /* background-color: black; */
+    background-color: rgba(0,0,0, 0.7);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    /* margin-bottom: 20px; */
+    
+}
